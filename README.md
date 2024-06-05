@@ -75,5 +75,7 @@ ___
     <img src="screenshots/9.png" alt="Screenshot9" style="max-width: 100%; height: auto;">
 </div>
 
+※スクリーンショットはあくまでも参考イメージです。
+
 # 注意
 このリポジトリを使用する際に発生した<ins>損害については、私は責任を負いません</ins>。十分に注意してご利用ください。
