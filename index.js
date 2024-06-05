@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function scrollToBottomRepeatedly() {
   let attempts = 0;
-  const maxAttempts = 20;
+  const maxAttempts = 50;
   let lastScrollTop = -1;
 
   const intervalId = setInterval(() => {
@@ -21,18 +21,25 @@ function scrollToBottomRepeatedly() {
       threadContainer.scrollTop = maxScrollTop;
 
       if (currentScrollTop === lastScrollTop) {
-        clearInterval(intervalId);
-        console.log('Reached the bottom of the thread.');
-      } else if (attempts >= maxAttempts) {
+        attempts++;
+      } else {
+        lastScrollTop = currentScrollTop;
+        attempts = 0;
+      }
+
+      if (attempts >= maxAttempts) {
         clearInterval(intervalId);
         console.log('Max attempts reached. Stopping scroll.');
       }
 
-      lastScrollTop = currentScrollTop;
-      attempts++;
+      if (currentScrollTop >= maxScrollTop) {
+        clearInterval(intervalId);
+        console.log('Reached the bottom of the thread.');
+      }
+
     } else {
       clearInterval(intervalId);
       console.log('Slack thread container not found.');
     }
-  }, 500);
+  }, 1000);
 }
