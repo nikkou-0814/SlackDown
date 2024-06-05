@@ -1,5 +1,11 @@
 # 導入方法
 
+> [!WARNING]
+># ご利用前にご確認ください
+>### この拡張機能には安全性の懸念があります。
+>### リスクを十分に理解し、同意いただける方のみ導入を進めてください。
+
+
 ### Latestマークが付いているものをクリック
 <div style="text-align: center;">
     <img src="screenshots/1.png" alt="Screenshot1" style="max-width: 100%; height: auto;">
@@ -68,3 +74,6 @@ ___
 <div style="text-align: center;">
     <img src="screenshots/9.png" alt="Screenshot9" style="max-width: 100%; height: auto;">
 </div>
+
+# 注意
+このリポジトリを使用する際に発生した<ins>損害については、私は責任を負いません</ins>。十分に注意してご利用ください。
