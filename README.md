@@ -13,7 +13,7 @@
 
 ___
 
-### ```SlackDown.zip```をクリック
+### ```SlackDown-vX.X.zip```をクリック(Xにはバージョンが入ります。例：```SlackDown-v1.0.zip```)
 
 <div style="text-align: center;">
     <img src="screenshots/2.png" alt="Screenshot2" style="max-width: 100%; height: auto;">
@@ -21,7 +21,7 @@ ___
 
 ___
 
-### ダウンロードした```SlackDown.zip```を解凍(ファイルをダブルクリック)
+### ダウンロードした```SlackDown-vX.X.zip```を解凍(Macの場合はファイルをダブルクリック)、(Xにはバージョンが入ります。例：```SlackDown-v1.0.zip```)
 
 <div style="text-align: center;">
     <img src="screenshots/3.png" alt="Screenshot3" style="max-width: 100%; height: auto;">
@@ -53,7 +53,7 @@ ___
 
 ___
 
-### 解凍した```SlackDown```を選択
+### 解凍した```SlackDown-vX.X```を選択(Xにはバージョンが入ります。例：```SlackDown-v1.0```)
 
 <div style="text-align: center;">
     <img src="screenshots/7.png" alt="Screenshot7" style="max-width: 100%; height: auto;">
