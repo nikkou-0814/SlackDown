@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "SlackDown",
-    "version": "1.0",
-    "description": "Slackのスレットを開く時たくさんメッセージがある時、スクロール面倒だと思いませんか？それでこの拡張機能です！(Web版に限られますが)",
+    "version": "1.1",
+    "description": "Slackのスレッドを開く時たくさんメッセージがある時、スクロール面倒だと思いませんか？それでこの拡張機能です！(Web版に限られますが)",
     "permissions": [
       "activeTab",
       "scripting"
